@@ -113,7 +113,7 @@ header{
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     width: 100%;
     height: 300px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
@@ -121,24 +121,60 @@ header{
 }
 
 .img-missao{
-    margin-left:10%;
+    margin-left:25%;
+    flex: 25%;
 }
 
 .text-missao{
     text-align: center;
+    color:#02449b;
+    margin-right: 25%;
+    flex: 25%;
 }
 
 .text-missao h2{
     font-size: 40px;
     padding: 0px;
     margin: 0px;
-    color:#02449b;
     font-weight: bold;
 }
 
 .text-missao p{
     padding: 0px;
     margin: 0px;
+    font-size: 18px;
+}
+
+.visao{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 300px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-color: white;
+}
+
+.img-visao{
+    margin-right:10%;
+}
+
+.text-visao{
+    text-align: center;
     color:#02449b;
+    margin-left: 10%;
+}
+
+.text-visao h2{
+    font-size: 40px;
+    padding: 0px;
+    margin: 0px;
+    font-weight: bold;
+}
+
+.text-visao p{
+    padding: 0px;
+    margin: 0px;
     font-size: 18px;
 }
