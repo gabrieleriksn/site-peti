@@ -115,7 +115,7 @@ header{
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 300px;
+    height: 400px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     background-color: #d0def0;
 }
@@ -151,7 +151,7 @@ header{
     align-items: center;
     justify-content: space-around;
     width: 100%;
-    height: 300px;
+    height: 400px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     background-color: white;
 }
@@ -174,6 +174,42 @@ header{
 }
 
 .text-visao p{
+    padding: 0px;
+    margin: 0px;
+    font-size: 18px;
+}
+
+.valores{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-color: #d0def0;
+}
+
+.img-valores{
+    margin-left:25%;
+    flex: 25%;
+}
+
+.text-valores{
+    text-align: center;
+    color:#02449b;
+    margin-right: 25%;
+    flex: 25%;
+}
+
+.text-valores h2{
+    font-size: 40px;
+    padding: 0px;
+    margin: 0px;
+    font-weight: bold;
+}
+
+.text-valores p{
     padding: 0px;
     margin: 0px;
     font-size: 18px;
