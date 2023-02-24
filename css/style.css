@@ -109,43 +109,7 @@ header{
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
-.missao{
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 400px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-    background-color: #d0def0;
-}
-
-.img-missao{
-    margin-left:25%;
-    flex: 25%;
-}
-
-.text-missao{
-    text-align: center;
-    color:#02449b;
-    margin-right: 25%;
-    flex: 25%;
-}
-
-.text-missao h2{
-    font-size: 40px;
-    padding: 0px;
-    margin: 0px;
-    font-weight: bold;
-}
-
-.text-missao p{
-    padding: 0px;
-    margin: 0px;
-    font-size: 18px;
-}
-
-.visao{
+.section{
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
@@ -153,64 +117,51 @@ header{
     width: 100%;
     height: 400px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-    background-color: white;
 }
 
-.img-visao{
-    margin-right:10%;
-}
-
-.text-visao{
-    text-align: center;
-    color:#02449b;
-    margin-left: 10%;
-}
-
-.text-visao h2{
+.text-section h2{
     font-size: 40px;
     padding: 0px;
     margin: 0px;
     font-weight: bold;
 }
 
-.text-visao p{
+.text-section p{
     padding: 0px;
     margin: 0px;
     font-size: 18px;
 }
 
-.valores{
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 400px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-    background-color: #d0def0;
+.white-section{
+    text-align: center;
+    color:#02449b;
+    margin-left: 10%;
 }
 
-.img-valores{
-    margin-left:25%;
-    flex: 25%;
-}
-
-.text-valores{
+.blue-section{
     text-align: center;
     color:#02449b;
     margin-right: 25%;
     flex: 25%;
 }
 
-.text-valores h2{
-    font-size: 40px;
-    padding: 0px;
-    margin: 0px;
-    font-weight: bold;
+.img-blue-section{
+    margin-left:25%;
+    flex: 25%;
 }
 
-.text-valores p{
-    padding: 0px;
-    margin: 0px;
-    font-size: 18px;
+.img-white-section{
+    margin-right:10%;
+}
+
+.missao{
+    background-color: #d0def0;
+}
+
+.visao{
+    background-color: white;
+}
+
+.valores{
+    background-color: #d0def0;
 }
