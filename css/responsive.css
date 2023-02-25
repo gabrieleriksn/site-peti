@@ -1,0 +1,55 @@
+@media screen and (max-width:1230px) {
+    
+    .navbar{
+        position: static;
+    }
+
+    .logo{
+        flex: 100%;
+        text-align: center;
+        margin: 0px;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    header{
+        flex-direction: column;
+    }
+
+    .headline{
+        margin: 20px;
+    }
+
+    .logos-parceiros{
+        flex-direction: column;
+    }
+
+    .img-headline{
+        margin-right: 0px;
+        text-align: center;
+    }
+
+    .img-headline img{
+        width: 280px;
+    }
+
+    .section{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .text-section{
+        flex: 100%;
+    }
+
+    .img-section{
+        flex: 100%;
+    }
+
+    .img-section img{
+        width: 180px;
+        margin-top: 30%;
+    }
+}
