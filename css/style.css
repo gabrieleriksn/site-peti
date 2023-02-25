@@ -24,7 +24,7 @@ body{
 }
 
 .navbar:hover{
-    background-color: #d0def0;
+    background-image: linear-gradient(45deg, #d0def0, #98c5ff);
 }
 
 .logo{
@@ -155,7 +155,7 @@ header{
 }
 
 .missao{
-    background-color: #d0def0;
+    background-image: linear-gradient(45deg, #d0def0, #98c5ff);
 }
 
 .visao{
@@ -164,5 +164,5 @@ header{
 }
 
 .valores{
-    background-color: #d0def0;
+    background-image: linear-gradient(45deg, #d0def0, #98c5ff);
 }
