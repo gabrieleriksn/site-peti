@@ -52,4 +52,17 @@
         width: 180px;
         margin-top: 30%;
     }
+
+    .cards{
+        flex-direction: column;
+    }
+
+    .card{
+        width: 280px;
+        height: 180px;
+    }
+
+    .card:hover{
+        width: 300px;
+    }
 }

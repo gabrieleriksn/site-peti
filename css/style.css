@@ -156,14 +156,78 @@ header{
 }
 
 .missao{
-    background-image: linear-gradient(45deg, #d0def0, #98c5ff);
+    background-color: white;
 }
 
 .visao{
-    background-color: white;
+    background-image: linear-gradient(45deg, #d0def0, #98c5ff);
     flex-direction: row-reverse;
 }
 
 .valores{
+    background-color: white;
+}
+
+.objetivos{
     background-image: linear-gradient(45deg, #d0def0, #98c5ff);
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: inline-block;
+    width: 100%;
+}
+
+.objetivos h2{
+    padding: 0px;
+    margin: 0px;
+    font-size: 40px;
+    font-weight: bold;
+    color:#02449b;
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    border-radius: 20px;
+    width: 400px;
+    height: 200px;
+    margin: 2%;
+    transition-timing-function: ease;
+    transition-duration: 0.5s;
+    transition-property: all;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.card:hover{
+    background-color: #02449b;
+    width: 440px;
+}
+
+.text-card{
+    text-align: center;
+    color: #02449b;
+    padding: 30px;
+}
+
+.text-card-oculto{
+    text-align: center;
+    color: white;
+    padding: 30px;
+    display: none;
+}
+
+.card:hover .text-card{
+    display: none;
+}
+
+.card:hover .text-card-oculto{
+    display: block;
 }
