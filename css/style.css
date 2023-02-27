@@ -195,10 +195,9 @@ header{
 .card{
     display: flex;
     background-color: white;
+    justify-content: center;
     align-items: center;
     border-radius: 20px;
-    width: 400px;
-    height: 200px;
     margin: 2%;
     transition-timing-function: ease;
     transition-duration: 0.5s;
@@ -208,26 +207,15 @@ header{
 
 .card:hover{
     background-color: #02449b;
-    width: 440px;
+    padding: 15px;
+}
+
+.card:hover .text-card{
+    color: white;
 }
 
 .text-card{
     text-align: center;
     color: #02449b;
     padding: 30px;
-}
-
-.text-card-oculto{
-    text-align: center;
-    color: white;
-    padding: 30px;
-    display: none;
-}
-
-.card:hover .text-card{
-    display: none;
-}
-
-.card:hover .text-card-oculto{
-    display: block;
 }
