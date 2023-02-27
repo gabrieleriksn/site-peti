@@ -212,6 +212,7 @@ header{
 
 .card:hover .text-card{
     color: white;
+    font-weight: bold;
 }
 
 .text-card{
