@@ -219,3 +219,16 @@ header{
     color: #02449b;
     padding: 30px;
 }
+
+.instagram-logo{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    transition-timing-function: ease;
+    transition-duration: 0.25s;
+    transition-property: all;
+}
+
+.instagram-logo:hover {
+    width: 60px;
+}
