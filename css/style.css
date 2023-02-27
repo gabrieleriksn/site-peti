@@ -233,3 +233,71 @@ header{
 .instagram-logo:hover {
     width: 60px;
 }
+
+.integrantes{
+    padding:80px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-image: linear-gradient(45deg, #d0def0, #98c5ff);
+}
+
+.container-integrantes{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.integrante{
+    padding: 20px;
+    text-align: center;
+}
+
+.integrante-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.integrante:hover .integrante-img{
+    transition-timing-function: ease;
+    transition-duration: 0.7s;
+    transition-property: all;
+    width: 140px;
+    height: 140px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.integrante-contatos{
+    display: none;
+}
+
+.integrante:hover .integrante-contatos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.integrante-contato{
+    display: inline-block;
+    text-align: center;
+    margin: 4%;
+}
+
+.integrante-contato img{
+    border-radius: 50%;
+}
+
+.integrante-contato:hover img{
+    transition-timing-function: ease;
+    transition-duration: 0.3s;
+    transition-property: all;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 4px;
+    width: 36px;
+}
