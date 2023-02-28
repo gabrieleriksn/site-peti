@@ -72,7 +72,7 @@ body{
 }
 
 header{
-    padding: 20px;
+    padding: 110px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
@@ -193,10 +193,11 @@ header{
 }
 
 .card{
+    width: 200px;
+    height: 300px;
     display: flex;
     background-color: white;
     justify-content: center;
-    align-items: center;
     border-radius: 20px;
     margin: 2%;
     transition-timing-function: ease;
@@ -207,7 +208,6 @@ header{
 
 .card:hover{
     background-color: #02449b;
-    padding: 15px;
 }
 
 .card:hover .text-card{
@@ -216,9 +216,9 @@ header{
 }
 
 .text-card{
-    text-align: center;
+    text-align: left;
     color: #02449b;
-    padding: 30px;
+    padding: 10px;
 }
 
 .instagram-logo{
@@ -235,7 +235,7 @@ header{
 }
 
 .integrantes{
-    padding:80px;
+    padding:60px;
     display: flex;
     flex-direction: column;
     justify-items: center;
@@ -253,6 +253,8 @@ header{
 }
 
 .integrante{
+    width: 200px;
+    height: 200px;
     padding: 20px;
     text-align: center;
 }
