@@ -257,6 +257,7 @@ header{
     height: 200px;
     padding: 20px;
     text-align: center;
+    margin: 1%;
 }
 
 .integrante-img{
@@ -289,6 +290,8 @@ header{
     display: inline-block;
     text-align: center;
     margin: 4%;
+    width: 36px;
+    height: 36px;
 }
 
 .integrante-contato img{
@@ -301,5 +304,5 @@ header{
     transition-property: all;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: 4px;
-    width: 36px;
+    width: 34px;
 }
