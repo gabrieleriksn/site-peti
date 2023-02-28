@@ -72,7 +72,7 @@ body{
 }
 
 header{
-    padding: 110px;
+    padding: 5%;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
