@@ -254,10 +254,11 @@ header{
 
 .integrante{
     width: 200px;
-    height: 200px;
+    height: 230px;
     padding: 20px;
     text-align: center;
     margin: 1%;
+    border: 1px solid black;
 }
 
 .integrante-img{
@@ -274,6 +275,14 @@ header{
     width: 140px;
     height: 140px;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.integrante-infos p{
+    padding: 0px;
+    margin: 0px;
+    color: #02449b;
+    font-weight: bold;
+    border: 1px solid black;
 }
 
 .integrante-contatos{
