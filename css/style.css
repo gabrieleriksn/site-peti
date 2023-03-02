@@ -7,12 +7,14 @@
 
 body{
     margin: 0;
+    color:#02449b;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .navbar{
     position: sticky;
     top: 0px;
+    z-index: 1;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
@@ -133,7 +135,6 @@ header{
 .text-section{
     flex: 70%;
     text-align: center;
-    color:#02449b;
     margin: 20px;
 }
 
@@ -235,13 +236,14 @@ header{
 }
 
 .integrantes{
-    padding:60px;
+    padding: 80px;
     display: flex;
     flex-direction: column;
     justify-items: center;
     align-items: center;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     background-image: linear-gradient(45deg, #d0def0, #98c5ff);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
 }
 
 .container-integrantes{
@@ -259,7 +261,6 @@ header{
     text-align: center;
 }
 
-.container-img{text-align: center;}
 
 .integrante-img{
     width: 150px;
@@ -278,7 +279,7 @@ header{
 }
 
 [aria-label] {
-    position: relative;
+    position:relative;
 }
     
 [aria-label]::after {
@@ -287,7 +288,7 @@ header{
     position: absolute;
     width: 160px;
     top: -40px;
-    left: -5px;
+    left: -10px;
     opacity: 0.7;
     pointer-events: none;
     padding: 2px 8px;
@@ -333,5 +334,32 @@ header{
     transition-property: all;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: 4px;
+    width: 34px;
+}
+
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-github {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-github img{
+    border-radius: 50%;
+}
+
+.footer-github img:hover{
+    transition-timing-function: ease;
+    transition-duration: 0.3s;
+    transition-property: all;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     width: 34px;
 }
